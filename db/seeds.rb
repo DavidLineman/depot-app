@@ -21,5 +21,7 @@ Product.create!(title: 'Build Chatbot Interactions',
       participate. Exercise your creativity by creating chatbot skills for
       communicating, information, and fun.  
       </p>},
-  image_url: 'dpchat.jpg',
+  image_url: 'dpchat.png',
   price: 20.00)
+
+  # ...
