@@ -13,25 +13,24 @@
       padding: 1em;
       margin: 0;
       border-bottom: solid thin #ddd;
-
       // This makes sure our <li> has enough height
       // to hold the entire image, since it's floated
       &::after {
-        clear: both;
-        content: " ";
-        display: block;
+      clear: both;
+      content: " ";
+      display: block;
       }
       img {
-        float: left;
-        height: 275px;
-        width: 400px;
-        padding: 1em;
-        margin-right: 1em;
-        margin-bottom: 1em;
-        box-shadow: 0.176em 0.176em 0.354em 0px rgba(0, 0, 0, 0.75);
+      height: 250px;
+      width: 400px;
+      float: left;
+      padding: 1em;
+      margin-right: 1em;
+      margin-bottom: 1em;
+      box-shadow: 0.176em 0.176em 0.354em 0px rgba(0,0,0,0.75);
       }
       .price {
-        font-size: 1.414em;
+      font-size: 1.414em;
       }
     }
   }

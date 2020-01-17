@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0.5em;
   a {
-    padding: 0.354em 0.5em;
+    padding: 0.354em;
     border-radius: 0.354em;
   }
   table {
@@ -22,17 +22,16 @@
   }
 
   td.image {
-    // Hide this on mobile devices
+    // Hide on mobile devices
     display: none;
 
     // Assume anything bigger than 30em
-    // is a non-mobile device and can 
-    // fit the image 
+    // is a non-mobile device and can
+    // fit the image
     @media (min-width: 30em) {
       display: block;
       img {
         height: 11.3em;
-        width: 100px;
       }
     }
   }
@@ -53,7 +52,7 @@
     }
   }
 
-  tfoot {
+  tfoot  {
     td {
       padding: 0.5em 0;
     }
