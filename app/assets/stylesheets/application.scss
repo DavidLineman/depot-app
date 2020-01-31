@@ -168,6 +168,16 @@ header.main {
   }
   .field_with_errors {
     background: none;
-    
+    color: red;
+    width: 100%;
+    label {
+      font-weight: bold;
+    }
+    label::before {
+      content: "! ";
+    }
+    input, textarea {
+      background: pink;
+    }
   }
 }
