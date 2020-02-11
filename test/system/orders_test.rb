@@ -27,7 +27,7 @@ class OrdersTest < ApplicationSystemTestCase
     click_on 'Checkout'
 
     fill_in 'order_name', with: 'Dave Thomas'
-    fill_in 'order_address', with: '123 Main St.'
+    fill_in 'order_address', with: '123 Main Street'
     fill_in 'order_address', with: 'dave@example.com'
 
     assert_no_selector "#order_routing_number"
