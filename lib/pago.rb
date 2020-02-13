@@ -1,4 +1,4 @@
-require 'obstruct'
+require 'ostruct'
 
 class Pago
   def self.make_payment(order_id:,
