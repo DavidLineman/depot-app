@@ -39,7 +39,17 @@ en:
       news:       "News"
       contact:    "Contact"
 
+en:
+
   store:
     index: 
       title_html: "Your Pragmatic Catalog"
       add_html:   "Add to Cart"
+
+en:
+  
+  carts: 
+    cart:
+      title:    "Your cart"
+      empty:    "Empty cart"
+      checkout: "Checkout"
