@@ -5,12 +5,10 @@ Rails.application.routes.draw do
     post 'login' => :create
     delete 'logout' => :destroy
   end
+  get 'session/create'
+  get 'session/destroy'
 
   resources :users
-  resources :orders
-  resources :line_items
-  resources :carts
-  root 'store#index', as: 'store_index'
   resources :products do
     get :who_bought, on: :member
   end
